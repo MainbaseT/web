@@ -17,6 +17,7 @@ keywords:
     ABI,
     interacting with smart contract,
   ]
+hide_table_of_contents: true
 ---
 
 # ethers.js
@@ -47,7 +48,7 @@ const ethers = require('ethers');
 
 ## Connecting to Base
 
-You can connect to Base by instantiating a new ethers.js `JsonRpcProvider` object with a RPC URL of the Base network:
+You can connect to Base by instantiating a new ethers.js `JsonRpcProvider` object with an RPC URL of the Base network:
 
 ```javascript
 const ethers = require('ethers');

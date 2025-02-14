@@ -20,6 +20,7 @@ keywords:
     mainnet,
     testnet,
   ]
+hide_table_of_contents: true
 ---
 
 # Foundry
@@ -43,13 +44,13 @@ Just provide the Base RPC URL and Chain ID when deploying and verifying your con
 ### Deploying a smart contract
 
 ```bash
-forge create ... --rpc-url=https://mainnet.base.org/
+forge create <CONTRACT_NAME> --rpc-url=https://mainnet.base.org/
 ```
 
 ### Verifying a smart contract
 
 ```bash
-forge verify-contract ... --chain-id 8453
+forge verify-contract <CONTRACT_ADDRESS> <CONTRACT_NAME> --chain-id 8453
 ```
 
 ## Testnet
@@ -57,11 +58,11 @@ forge verify-contract ... --chain-id 8453
 ### Deploying a smart contract
 
 ```bash
-forge create ... --rpc-url=https://sepolia.base.org/
+forge create <CONTRACT_NAME> --rpc-url=https://sepolia.base.org/
 ```
 
 ### Verifying a smart contract
 
 ```bash
-forge verify-contract ... --chain-id 84532
+forge verify-contract <CONTRACT_ADDRESS> <CONTRACT_NAME> --chain-id 84532
 ```

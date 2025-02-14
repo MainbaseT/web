@@ -23,9 +23,10 @@ keywords:
     Base Testnet,
     interchain connectivity,
     blockchain interoperability,
-    cross-chain transactions, 
+    cross-chain transactions,
     cross-chain payments,
   ]
+hide_table_of_contents: true
 ---
 
 # Cross-chain
@@ -36,7 +37,7 @@ keywords:
 
 [Axelar](https://axelar.network/) is an interchain platform that connects blockchains to enable universal web3 transactions. By integrating with Axelar, applications built on Base can now easily send messages and assets between the 49+ blockchains connected via Axelar.
 
-To learn more about Axelar visit our [docs](https://docs.axelar.dev/). For complete end-to-end examples demonstrating various Axelar usecases please visit the available [code examples](https://github.com/axelarnetwork/axelar-examples).
+To learn more about Axelar visit our [docs](https://docs.axelar.dev/). For complete end-to-end examples demonstrating various Axelar use cases please visit the available [code examples](https://github.com/axelarnetwork/axelar-examples).
 
 #### Supported Networks
 
@@ -51,19 +52,20 @@ To view current transactions and live stats about the Axelar network, please vis
 
 ## Crossmint
 
-[Crossmint](https://crossmint.com/?utm_source=backlinks&utm_medium=docs&utm_campaign=base) allows you to create and deploy NFT Collections and enable cross-chain payments. This enables your users and customers to purchase an NFT from a collection deployed on Base using Ethereum or Solana tokens. 
+[Crossmint](https://crossmint.com/?utm_source=backlinks&utm_medium=docs&utm_campaign=base) allows you to create and deploy NFT Collections and enable cross-chain payments. This enables your users and customers to purchase an NFT from a collection deployed on Base using Ethereum or Solana tokens.
 
-Check out [Crossmint Docs](https://docs.crossmint.com/nft-checkout/introduction/?utm_source=backlinks&utm_medium=docs&utm_campaign=base) to learn more about NFT Checkout with Crossmint. To power cross-chain payments, click [here](https://docs.crossmint.com/nft-checkout/pay-button/select-payment-options/?utm_medium=docs&utm_source=backlinks&utm_campaign=base) to get started. 
+Check out [Crossmint Docs](https://docs.crossmint.com/nft-checkout/introduction/?utm_source=backlinks&utm_medium=docs&utm_campaign=base) to learn more about NFT Checkout with Crossmint. To power cross-chain payments, click [here](https://docs.crossmint.com/nft-checkout/pay-button/select-payment-options/?utm_medium=docs&utm_source=backlinks&utm_campaign=base) to get started.
 
 #### Supported Networks
 
 - [Base Mainnet](https://www.crossmint.com/products/nft-checkout/?utm_source=backlinks&utm_medium=docs&utm_campaign=base)
+- [Base Sepolia](https://www.crossmint.com/products/nft-checkout/?utm_source=backlinks&utm_medium=docs&utm_campaign=base)
 
 ---
 
 ## Chainlink CCIP
 
-[Chainlink CCIP](https://chain.link/cross-chain) is a secure interoperability protocol that allows for securely sending messages, transfering tokens, and initiating actions across different blockchains.
+[Chainlink CCIP](https://chain.link/cross-chain) is a secure interoperability protocol that allows for securely sending messages, transferring tokens, and initiating actions across different blockchains.
 
 To get started with integrating Chainlink CCIP in your Base project, visit the Chainlink CCIP [documentation](https://docs.chain.link/ccip).
 
@@ -78,12 +80,12 @@ To get started with integrating Chainlink CCIP in your Base project, visit the C
 
 [LayerZero](https://layerzero.network/) is an omnichain interoperability protocol that enables cross-chain messaging. Applications built on Base can use the LayerZero protocol to connect to 35+ supported blockchains seamlessly.
 
-To get started with integrating LayerZero, visit the LayerZero [documentation](https://layerzero.gitbook.io/docs/evm-guides/master/how-to-send-a-message) and provided examples on [GitHub](https://github.com/LayerZero-Labs/solidity-examples).
+To get started with integrating LayerZero, visit the LayerZero [documentation](https://docs.layerzero.network/v1/developers/evm/evm-guides/send-messages) and provided examples on [GitHub](https://github.com/LayerZero-Labs/solidity-examples).
 
 #### Supported Networks
 
-- [Base Mainnet](https://layerzero.gitbook.io/docs/technical-reference/mainnet/supported-chain-ids)
-- [Base Sepolia](https://layerzero.gitbook.io/docs/technical-reference/testnet/testnet-addresses#layerzero-endpoints-testnet) (Testnet)
+- [Base Mainnet](https://docs.layerzero.network/v2/developers/evm/technical-reference/deployed-contracts#base)
+- [Base Sepolia](https://docs.layerzero.network/v2/developers/evm/technical-reference/deployed-contracts#base-sepolia) (Testnet)
 
 ---
 

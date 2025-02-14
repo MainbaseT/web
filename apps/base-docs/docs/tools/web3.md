@@ -17,6 +17,7 @@ keywords:
     Ethereum,
     RPC URL,
   ]
+hide_table_of_contents: true
 ---
 
 # web3.js
@@ -51,7 +52,7 @@ const { Web3 } = require('web3');
 
 ## Connecting to Base
 
-You can connect to Base by instantiating a new web3.js `Web3` object with a RPC URL of the Base network:
+You can connect to Base by instantiating a new web3.js `Web3` object with an RPC URL of the Base network:
 
 ```javascript
 const { Web3 } = require('web3');
@@ -127,6 +128,6 @@ async function getValue() {
 
 :::info
 
-For more information on deploying contracts on Base, see [Deploying a Smart Contract](/guides/deploy-smart-contracts).
+For more information on deploying contracts on Base, see [Deploying a Smart Contract](/tutorials/deploy-with-hardhat).
 
 :::

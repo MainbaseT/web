@@ -18,6 +18,7 @@ keywords:
     Etherscan,
     Basescan,
   ]
+hide_table_of_contents: true
 ---
 
 # Block Explorers
@@ -50,9 +51,9 @@ An Etherscan block explorer is available for [Base](https://basescan.org).
 Etherscan provides tools to help you view transaction data and debug smart contracts:
 
 - Search by address, transaction hash, batch, or token
-- View, verify, and interact with smart contract source code.
+- View, verify, and interact with smart contract source code
 - View detailed transaction information
-- View L1-to-L2 and L2-to-L1 transactions.
+- View L1-to-L2 and L2-to-L1 transactions
 
 A testnet explorer for [Base Sepolia](https://sepolia.basescan.org/) is also available.
 
@@ -70,9 +71,20 @@ A testnet explorer for [Base Sepolia](https://sepolia.basescan.org/) is also ava
 
 ---
 
+## OKLink
+
+[OKLink](https://www.oklink.com/base) is a multi-chain blockchain explorer that supports Base and provides the following features for developers:
+
+- Search by address, transaction, block, or token
+- View, verify, and interact with smart contract source code
+- Access a comprehensive and real-time stream of on-chain data, including large transactions and significant fund movements
+- Address labels (i.e. project labels, contract labels, risk labels, black address labels, etc.)
+
+---
+
 ## Routescan
 
-[Routescan](https://superscan.network/) superchain explorer allows you to search for transactions, addresses, tokens, prices and other activities taking place across all Superchain blockchains, including Base.
+[Routescan](https://routescan.io) superchain explorer allows you to search for transactions, addresses, tokens, prices and other activities taking place across all Superchain blockchains, including Base.
 
 ---
 

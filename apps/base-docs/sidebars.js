@@ -1,13 +1,22 @@
 module.exports = {
   developers: [
+    ['why-base'],
     ['overview'],
     ['using-base'],
+    {
+      type: 'category',
+      label: 'Notices',
+      collapsible: false,
+      collapsed: false,
+      items: ['notices/decomissioning-public-geth-archive-snapshots'],
+    },
     {
       type: 'category',
       label: 'Building on Base',
       collapsible: false,
       collapsed: false,
       items: [
+        'building-with-base/quickstart',
         'building-with-base/network-information',
         'building-with-base/base-contracts',
         'building-with-base/fees',
@@ -17,251 +26,6 @@ module.exports = {
           label: 'Decentralizing Base with Optimism',
           href: 'https://base.mirror.xyz/H_KPwV31M7OJT-THUnU7wYjOF16Sy7aWvaEr5cgHi8I',
         },
-        {
-          type: 'category',
-          label: 'Guides',
-          collapsible: true,
-          collapsed: true,
-          items: [
-            {
-              type: 'category',
-              label: 'Deploying a Smart Contract',
-              collapsible: true,
-              collapsed: true,
-              items: [
-                'building-with-base/guides/deploy-smart-contracts',
-                'building-with-base/guides/deploy-with-foundry',
-                'building-with-base/guides/deploy-with-remix',
-                'building-with-base/guides/deploy-with-tenderly',
-                'building-with-base/guides/deploy-with-thirdweb',
-              ],
-            },
-            {
-              type: 'category',
-              label: 'Building an App Onchain',
-              collapsible: true,
-              collapsed: true,
-              items: ['building-with-base/guides/build-with-thirdweb'],
-            },
-            'building-with-base/guides/run-a-base-node',
-            {
-              type: 'category',
-              label: 'Accessing real-world data using Oracles',
-              collapsible: true,
-              collapsed: true,
-              items: [
-                'building-with-base/guides/using-chainlink-price-feeds',
-                'building-with-base/guides/using-pyth-price-feeds',
-                'building-with-base/guides/using-supra-vrf',
-              ],
-            },
-            {
-              type: 'category',
-              label: 'Sending data and tokens across chains',
-              collapsible: true,
-              collapsed: true,
-              items: [
-                'building-with-base/guides/cross-chain-with-ccip',
-                'building-with-base/guides/cross-chain-with-layerzero',
-              ],
-            },
-            {
-              type: 'category',
-              label: 'Account abstraction',
-              collapsible: true,
-              collapsed: true,
-              items: ['building-with-base/guides/account-abstraction-with-biconomy'],
-            },
-            {
-              type: 'category',
-              label: 'Building with Foundry',
-              collapsible: true,
-              collapsed: true,
-              items: [
-                {
-                  type: 'doc',
-                  id: 'building-with-base/guides/building-with-base-and-foundry/introduction',
-                  className: 'sidebar-coding',
-                },
-                {
-                  type: 'doc',
-                  id: 'building-with-base/guides/building-with-base-and-foundry/testing',
-                  className: 'sidebar-coding',
-                },
-              ],
-            },
-            {
-              type: 'category',
-              label: 'Advanced NFT Development',
-              collapsible: true,
-              collapsed: true,
-              items: [
-                {
-                  type: 'doc',
-                  id: 'building-with-base/guides/complex-onchain-nfts',
-                  className: 'sidebar-coding',
-                },
-              ],
-            },
-            {
-              type: 'category',
-              label: 'Farcaster Frames',
-              collapsible: true,
-              collapsed: true,
-              items: [
-                {
-                  type: 'doc',
-                  id: 'building-with-base/guides/nft-minting-frame',
-                  className: 'sidebar-coding',
-                },
-                {
-                  type: 'doc',
-                  id: 'building-with-base/guides/deploy-frame-on-vercel',
-                  className: 'sidebar-coding',
-                },
-                {
-                  type: 'doc',
-                  id: 'building-with-base/guides/advanced-frame-behavior',
-                  className: 'sidebar-coding',
-                },
-              ],
-            },
-            {
-              type: 'category',
-              label: 'Hardhat Tools and Testing',
-              collapsible: true,
-              items: [
-                {
-                  type: 'doc',
-                  id: 'hardhat-tools-and-testing/overview',
-                  className: 'sidebar-reading',
-                },
-                {
-                  type: 'category',
-                  label: 'Profiling Size',
-                  items: [
-                    {
-                      type: 'doc',
-                      id: 'hardhat-tools-and-testing/hardhat-profiling-size/contract-sizer-setup-vid',
-                      className: 'sidebar-video',
-                    },
-                    {
-                      type: 'doc',
-                      id: 'hardhat-tools-and-testing/hardhat-profiling-size/manual-contract-optimizations-vid',
-                      className: 'sidebar-video',
-                    },
-                    {
-                      type: 'doc',
-                      id: 'hardhat-tools-and-testing/hardhat-profiling-size/using-the-optimizer-vid',
-                      className: 'sidebar-video',
-                    },
-                    {
-                      type: 'doc',
-                      id: 'hardhat-tools-and-testing/hardhat-profiling-size/hardhat-profiling-size',
-                      className: 'sidebar-coding',
-                    },
-                  ],
-                },
-                {
-                  type: 'category',
-                  label: 'Profiling Gas',
-                  collapsible: true,
-                  items: [
-                    {
-                      type: 'doc',
-                      id: 'hardhat-tools-and-testing/hardhat-profiling-gas/installing-the-gas-analyzer-vid',
-                      className: 'sidebar-video',
-                    },
-                    {
-                      type: 'doc',
-                      id: 'hardhat-tools-and-testing/hardhat-profiling-gas/improving-gas-usage-vid',
-                      className: 'sidebar-video',
-                    },
-                    {
-                      type: 'doc',
-                      id: 'hardhat-tools-and-testing/hardhat-profiling-gas/hardhat-profiling-gas',
-                      className: 'sidebar-coding',
-                    },
-                  ],
-                },
-                {
-                  type: 'category',
-                  label: 'Debugging',
-                  collapsible: true,
-                  items: [
-                    {
-                      type: 'doc',
-                      id: 'hardhat-tools-and-testing/hardhat-debugging/debugging-with-hardhat-sbs',
-                      className: 'sidebar-code',
-                    },
-                  ],
-                },
-                {
-                  type: 'category',
-                  label: 'Test Coverage',
-                  collapsible: true,
-                  items: [
-                    {
-                      type: 'doc',
-                      id: 'hardhat-tools-and-testing/hardhat-test-coverage/hardhat-test-coverage-sbs',
-                      className: 'sidebar-code',
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              type: 'category',
-              label: 'Connecting to the Blockchain',
-              collapsible: true,
-              items: [
-                {
-                  type: 'doc',
-                  id: 'connecting-to-the-blockchain/overview',
-                  className: 'sidebar-reading',
-                },
-                {
-                  type: 'doc',
-                  id: 'connecting-to-the-blockchain/blockchain-providers',
-                  className: 'sidebar-reading',
-                },
-                {
-                  type: 'doc',
-                  id: 'connecting-to-the-blockchain/connecting-with-a-provider',
-                  className: 'sidebar-coding',
-                },
-              ],
-            },
-            {
-              type: 'category',
-              label: 'Privy and the Base Paymaster',
-              collapsible: true,
-              collapsed: true,
-              items: [
-                {
-                  type: 'doc',
-                  id: 'building-with-base/guides/account-abstraction/overview',
-                  className: 'sidebar-reading',
-                },
-                {
-                  type: 'doc',
-                  id: 'building-with-base/guides/account-abstraction/intro-to-account-abstraction',
-                  className: 'sidebar-reading',
-                },
-                {
-                  type: 'doc',
-                  id: 'building-with-base/guides/account-abstraction/intro-to-privy',
-                  className: 'sidebar-coding',
-                },
-                {
-                  type: 'doc',
-                  id: 'building-with-base/guides/account-abstraction/implementing-the-paymaster',
-                  className: 'sidebar-coding',
-                },
-              ],
-            },
-          ],
-        },
       ],
     },
     {
@@ -270,6 +34,7 @@ module.exports = {
       collapsible: false,
       collapsed: false,
       items: [
+        'tools/registry-api',
         'tools/node-providers',
         'tools/block-explorers',
         'tools/network-faucets',
@@ -277,15 +42,26 @@ module.exports = {
         'tools/data-indexers',
         'tools/cross-chain',
         'tools/account-abstraction',
-        'tools/nft-checkout',
         'tools/onramps',
         'tools/onboarding',
+        'tools/bridges-mainnet',
         {
           type: 'category',
-          label: 'Bridges',
+          label: 'Onchain Registry',
           collapsible: true,
           collapsed: true,
-          items: ['tools/bridges-mainnet', 'tools/bridges-testnet', 'tools/bridge-faq'],
+          items: ['tools/registry-api', 'tools/registry-faq'],
+        },
+        {
+          type: 'category',
+          label: 'Basenames',
+          collapsible: true,
+          collapsed: true,
+          items: [
+            'tools/basenames-faq',
+            'tools/basenames-tutorial',
+            'tools/basenames-onchainkit-tutorial',
+          ],
         },
         {
           type: 'category',
@@ -303,8 +79,26 @@ module.exports = {
         },
       ],
     },
+    {
+      type: 'category',
+      label: 'Tokens',
+      collapsible: false,
+      collapsed: false,
+      items: ['tokens/token-list', 'tokens/wallet'],
+    },
     ['contracts'],
-    ['tokens'],
+    {
+      type: 'category',
+      label: 'Security',
+      collapsible: false,
+      collapsed: false,
+      items: ['security/bounty', 'security/report', 'security/app-blocklist'],
+    },
+    {
+      type: 'link',
+      label: 'Metrics',
+      href: 'https://base.org/stats',
+    },
     {
       type: 'link',
       label: 'Status',

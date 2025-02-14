@@ -13,16 +13,33 @@ keywords:
     Base testnet,
     blockchain data,
     Covalent,
+    Moralis,
+    Subsquid,
     SubQuery,
     The Graph,
     GraphQL,
     EVM chains,
+    GhostGraph,
   ]
+hide_table_of_contents: true
 ---
 
 # Data Indexers
 
 ---
+
+## Allium
+
+[Allium](https://www.allium.so/) is an Enterprise Data Platform that serves accurate, fast, and simple blockchain data. Currently serving 15 blockchains and over 100+ schemas, Allium offers near real-time Base data for infrastructure needs and enriched Base data (NFT, DEX, Decoded, Wallet360) for research and analytics.
+
+Allium supports data delivery to multiple [destinations](https://docs.allium.so/integrations/overview), including Snowflake, Bigquery, Databricks, and AWS S3.
+
+Documentation:
+
+- [Real-time](https://docs.allium.so/real-time-data/base)
+- [Batch-enriched](https://docs.allium.so/data-tables/base)
+
+To get started, contact Allium [here](https://www.allium.so/contact).
 
 ## Arkham
 
@@ -55,6 +72,13 @@ To get started, [sign up](https://www.covalenthq.com/platform/?utm_source=base&u
 
 ---
 
+## DipDup
+[DipDup](https://dipdup.io) is a Python framework for building smart contract indexers. It helps developers focus on business logic instead of writing a boilerplate to store and serve data. DipDup-based indexers are selective, which means only required data is requested. This approach allows to achieve faster indexing times and decreased load on underlying APIs.
+
+To get started, visit the [documentation](https://dipdup.io/docs/supported-networks/base) or follow the [quickstart](https://dipdup.io/docs/quickstart-evm) guide.
+
+---
+
 ## Envio
 
 [Envio](https://envio.dev) is a full-featured data indexing solution that provides application developers with a seamless and efficient way to index and aggregate real-time and historical blockchain data for any EVM. The indexed data is easily accessible through custom GraphQL queries, providing developers with the flexibility and power to retrieve specific information.
@@ -72,11 +96,84 @@ To get started, visit the [documentation](https://docs.envio.dev/docs/overview) 
 
 ---
 
+## GhostGraph
+
+[GhostGraph](https://ghostgraph.xyz/) makes it easy to build blazingly fast indexers (subgraphs) for smart contracts.
+
+GhostGraph is the first indexing solution that lets you write your index transformations in **Solidity**. Base dApps can query data with GraphQL using our hosted endpoints.
+
+To get started, you can [sign up for an account](https://app.ghostlogs.xyz/ghostgraph/sign-up) and follow [this quickstart](https://docs.ghostlogs.xyz/category/-getting-started-1) guide on how to create, deploy, and query a GhostGraph.
+
+#### Supported Networks
+
+- Base Mainnet
+- Base Sepolia (Testnet)
+
+---
+
+## The Indexing Company
+
+[The Indexing Company](https://www.indexing.co/) provides indexing as a service, capable of indexing any chain (EVM and non-EVM) with an RPC endpoint and integrating off-chain data within the same infrastructure.
+
+Our services include data transformations, aggregations, and streamlined data flows, allowing teams to develop their products faster while saving on developer resources, time, and money. Our solution is ideal for teams needing advanced data engineering for modular chain setups, multi-chain products, L1/L2/L3 chains and AI.
+
+To get started contact us [here](https://www.indexing.co/get-in-touch).
+
+#### Supported Networks
+
+- Base Mainnet
+- Base Sepolia (Testnet)
+
+---
+
+## Moralis
+
+[Moralis](https://moralis.io/?utm_source=base-docs&utm_medium=partner-docs) offers comprehensive data APIs for crypto, offering both indexed and real-time data across 15+ chains. Moralis' APIs include portfolio and wallet balances, NFT data, token data, price data, candlestick data, net worth data, and a lot more. All of the data is enriched with things like metadata, parsed events and address labels.
+
+To get started with Moralis, you can [sign up for an account](https://moralis.io/?utm_source=base-docs&utm_medium=partner-docs), visit the Moralis [documentation](https://docs.moralis.io/?utm_source=base-docs&utm_medium=partner-docs), or check out their tutorials on [Youtube](https://www.youtube.com/c/MoralisWeb3).
+
+#### Supported Networks
+
+- Base Mainnet
+- Base Sepolia (Testnet)
+
+---
+
+## Nexandria
+
+[Nexandria](https://www.nexandria.com/?utm_source=base-docs&utm_medium=partner-docs) API offers access to complete historical on-chain data at blazing speeds, arbitrary granularity (as low as block-level) and at viable unit economics (think web2 level costs). Our technology lets you generate subgraphs on the fly, unlocking unique endpoints like a statement of all the balance transfers for all the tokens, or a list of all the neighbors of an address with all the historical interaction details or a portfolio balance graph covering all the tokens across arbitrary time/block ranges.
+
+References:
+
+- [API Documentation](https://docs.nexandria.com/)
+- [Sign-up](https://www.nexandria.com/api)
+
+#### Supported Networks
+
+- Base Mainnet
+
+---
+
 ## Shovel
 
 [Shovel](https://indexsupply.com/shovel) is an [open source](https://github.com/indexsupply/code) tool for synchronizing Ethereum data to your Postgres database. Shovel can index block data, transaction data, and decoded event data. A single Shovel can index multiple chains simultaneously. Shovel is configured via a declarative JSON config file – no custom functions to save indexed data to your database.
 
 Find out more in the [Shovel Docs](https://indexsupply.com/shovel/docs/)
+
+#### Supported Networks
+
+- Base Mainnet
+- Base Sepolia (Testnet)
+
+---
+
+## Subsquid
+
+[Subsquid](https://subsquid.io/) is a decentralized hyper-scalable data platform optimized for providing efficient, permissionless access to large volumes of data.
+It currently serves historical on-chain data, including event logs, transaction receipts, traces, and per-transaction state diffs.
+Subsquid offers a powerful toolkit for creating custom data extraction and processing pipelines, achieving an indexing speed of up to 150k blocks per second.
+
+To get started, visit the [documentation](https://docs.subsquid.io/) or see this [quickstart with examples](https://docs.subsquid.io/sdk/examples/) on how to easily create subgraphs via Subsquid.
 
 #### Supported Networks
 
@@ -104,15 +201,22 @@ To get started, visit the [developer documentation](https://academy.subquery.net
 
 ## The Graph
 
-[The Graph](https://thegraph.com/) is an indexing protocol for organizing blockchain data and making it easily accessible with GraphQL.
+[The Graph](https://thegraph.com/) is an indexing protocol that provides an easy way to query blockchain data through APIs known as subgraphs. 
 
-Base applications can use GraphQL to query open APIs called subgraphs, to retrieve data that is indexed on the network. With The Graph, you can build serverless applications that run entirely on public infrastructure.
+With The Graph, you can benefit from:
+ - **Decentralized Indexing**: Enables indexing blockchain data through multiple indexers, thus eliminating any single point of failure
+ - **GraphQL Queries**: Provides a powerful GraphQL interface for querying indexed data, making data retrieval super simple.
+ - **Customization**: Define your own logic for transforming & storing blockchain data. Reuse subgraphs published by other developers on The Graph Network.
 
-To get started, visit the [documentation](https://thegraph.com/docs/en/) or see [this quickstart](https://thegraph.com/docs/en/cookbook/quick-start/) on how to create, deploy, and query a subgraph.
+Follow this [quick-start](https://thegraph.com/docs/en/quick-start/) guide to create, deploy, and query a subgraph within 5 minutes.
 
 #### Supported Networks
 
-- [Base Mainnet](https://thegraph.com/docs/en/#supported-networks)
+- Base Mainnet
+- Base Sepolia (Testnet)
+
+See [all supported networks](https://thegraph.com/docs/en/#supported-networks)
+
 
 ---
 

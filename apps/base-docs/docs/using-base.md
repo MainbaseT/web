@@ -1,6 +1,6 @@
 ---
 title: Using Base
-sidebar_position: 1
+sidebar_position: 2
 slug: /using-base
 description: 'How to integrate Base with popular wallets like Coinbase Wallet and MetaMask, covering both mainnet and testnet configurations.'
 keywords:
@@ -18,6 +18,7 @@ keywords:
     'Base wallet setup',
     'add Base network',
   ]
+hide_table_of_contents: true
 ---
 
 # Using Base with your wallet
@@ -53,14 +54,14 @@ To add Base as a custom network to MetaMask:
 4. Click **Add a network manually**.
 5. In the **Add a network manually** dialog that appears, enter the following information for Base mainnet:
 
-   | Name            | Value                                                |
-   | :-------------- | :--------------------------------------------------- |
-   | Network Name    | Base Mainnet                                         |
-   | Description     | The public mainnet for Base.                         |
-   | RPC Endpoint    | [https://mainnet.base.org](https://mainnet.base.org) |
-   | Chain ID        | 8453                                                 |
-   | Currency Symbol | ETH                                                  |
-   | Block Explorer  | [https://basescan.org](https://basescan.org)         |
+   | Name            | Value                                                        |
+   | :-------------- | :----------------------------------------------------------- |
+   | Network Name    | Base Mainnet                                                 |
+   | Description     | The public mainnet for Base.                                 |
+   | RPC Endpoint    | [https://mainnet.base.org](https://mainnet.base.org)         |
+   | Chain ID        | 8453                                                         |
+   | Currency Symbol | ETH                                                          |
+   | Block Explorer  | [https://base.blockscout.com/](https://base.blockscout.com/) |
 
 6. Tap the Save button to save Base as a network.
 
@@ -85,11 +86,11 @@ Your active network should now be switched to Base testnet.
 
 #### Other wallets
 
-Base Sepolia can be added as a custom network to any EVM-compatible wallet (i.e. [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)).
+Base Sepolia can be added as a custom network to any EVM-compatible wallet (e.g., [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)).
 
 #### MetaMask
 
-To add Base Sepolia as a custom network to MetaMask:
+To add Base Sepolia as a custom network in MetaMask:
 
 1. Open the MetaMask browser extension.
 2. Open the network selection dropdown menu by clicking the dropdown button at the top of the extension.
@@ -97,13 +98,13 @@ To add Base Sepolia as a custom network to MetaMask:
 4. Click **Add a network manually**.
 5. In the **Add a network manually** dialog that appears, enter the following information for the Base Sepolia testnet:
 
-   | Name            | Sepolia                                                                 |
-   | :-------------- | :---------------------------------------------------------------------- |
-   | Network Name    | Base Sepolia                                                            |
-   | RPC Endpoint    | [https://sepolia.base.org](https://sepolia.base.org)                    |
-   | Chain ID        | 84532                                                                   |
-   | Currency Symbol | ETH                                                                     |
-   | Block Explorer  | [https://sepolia-explorer.base.org/](https://sepolia-explorer.base.org) |
+   | Name            | Sepolia                                                                |
+   | :-------------- | :--------------------------------------------------------------------- |
+   | Network Name    | Base Sepolia                                                           |
+   | RPC Endpoint    | [https://sepolia.base.org](https://sepolia.base.org)                   |
+   | Chain ID        | 84532                                                                  |
+   | Currency Symbol | ETH                                                                    |
+   | Block Explorer  | [https://sepolia-explorer.base.org](https://sepolia-explorer.base.org) |
 
 6. Tap the Save button to save Base Sepolia as a network.
 

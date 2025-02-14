@@ -15,10 +15,15 @@ keywords:
     smart contract wallets,
     Alchemy,
     Biconomy,
+    Reown,
+    AppKit,
+    WalletConnect,
     Stackup,
     WalletKit,
     Zerodev,
+    Openfort,
   ]
+hide_table_of_contents: true
 ---
 
 # Account Abstraction
@@ -27,7 +32,7 @@ keywords:
 
 ## Alchemy Account Kit
 
-[Account Kit](https://www.alchemy.com/account-kit) is a complete solution for account abstraction. Using Account Kit, you can create a smart contract wallet for every user that leverages account abstraction to simplify every step of your app's onboaring experience. It also offers Gas Manager and Bundler APIs for sponsoring gas and batching transactions.
+[Account Kit](https://www.alchemy.com/account-kit) is a complete solution for account abstraction. Using Account Kit, you can create a smart contract wallet for every user that leverages account abstraction to simplify every step of your app's onboarding experience. It also offers Gas Manager and Bundler APIs for sponsoring gas and batching transactions.
 
 ---
 
@@ -37,9 +42,29 @@ keywords:
 
 ---
 
+## Coinbase Account Abstraction Kit
+
+The Coinbase Developer Platform [Account Abstraction Kit](https://www.coinbase.com/developer-platform/solutions/account-abstraction-kit) is an account abstraction toolkit for building simple onchain user experiences. Account Abstraction Kit provides a paymaster and bundler that allows you to sponsor gas fees and bundle user transactions, improving the user experience of your application.
+
+---
+
+## Openfort
+
+[Openfort](https://openfort.xyz) is an infrastructure provider designed to simplify the development of games and gamified experiences across their suite of API endpoints. The platform vertically integrates the AA stack, so game developers can focus on game development without worrying about private key management, the account model or the onchain interactions with paymasters and bundlers. The Openfort platform is compatible with most EVM chains, including Base.
+
+---
+
 ## Pimlico
 
 [Pimlico](https://pimlico.io/) provides an infrastructure platform that makes building smart accounts simpler. If you are developing, an ERC-4337 smart account, they provide bundlers, verifying paymasters, ERC-20 paymasters, and much more.
+
+---
+
+## Reown (prev. known as WalletConnect)
+
+**[Reown](https://reown.com/?utm_source=base&utm_medium=docs&utm_campaign=backlinks)** gives developers the tools to build user experiences that make digital ownership effortless, intuitive, and secure. One of Reown's offerings is the AppKit SDK. 
+
+**AppKit** is a powerful, free, and fully open-source SDK for developers looking to integrate wallet connections and other Web3 functionalities into their apps on any EVM and non-EVM chain. In just a few simple steps, you can provide your users with seamless wallet access, one-click authentication, social logins, and notifications—streamlining their experience while enabling advanced features like on-ramp functionality, in-app token swaps and smart accounts. Check out the [docs](https://docs.reown.com/appkit/overview?utm_source=base&utm_medium=docs&utm_campaign=backlinks) to get started.
 
 ---
 
@@ -55,9 +80,14 @@ keywords:
 
 ---
 
+## thirdweb
+[thirdweb](https://portal.thirdweb.com/typescript/v5/account-abstraction/get-started) offers the complete toolkit to leverage account abstraction technology to enable seamless user experiences for your users. This includes Account Factory contracts that let your users spin up Smart Accounts, Bundler for UserOps support, and Paymaster to enable gas sponsorships.
+
+---
+
 ## WalletKit
 
-[WalletKit](https://walletkit.com) is an all-in-one platform for adding smart, gasless wallets to your app. It has integrated support for ERC 4337 and comes with a paymaster and bundler included, requiring no extra setup. 
+[WalletKit](https://walletkit.com) is an all-in-one platform for adding smart, gasless wallets to your app. It has integrated support for ERC 4337 and comes with a paymaster and bundler included, requiring no extra setup.
 
 WalletKit also offers pre-built components for onboarding users with email and social logins, which can be integrated in under 15 minutes using their React SDK or the wagmi connector. Alternatively, build completely bespoke experiences for your users using WalletKit's Wallets API.
 

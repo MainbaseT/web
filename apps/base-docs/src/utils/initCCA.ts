@@ -2,13 +2,11 @@
 // They recommended disabling linting and type-checking for now, since this version is not typed.
 /* eslint-disable */
 // @ts-nocheck
-const docusaurusConfig = require('@generated/docusaurus.config');
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 import { setCookie, getCookie, deserializeCookie } from './cookieManagement';
 import { TrackingPreference } from '@coinbase/cookie-manager';
+import { isDevelopment, amplitudeApiKey } from '../constants';
 
-const { customFields } = docusaurusConfig.default;
-const isDevelopment = customFields.nodeEnv === 'development';
 
 // Initialize Client Analytics
 const initCCA = () => {
@@ -32,9 +30,7 @@ const initCCA = () => {
 
       init({
         isProd: !isDevelopment,
-        amplitudeApiKey: isDevelopment
-          ? 'ca92bbcb548f7ec4b8ebe9194b8eda81'
-          : '2b38c7ac93c0dccc83ebf9acc5107413',
+        amplitudeApiKey: amplitudeApiKey,
         platform: PlatformName.web,
         projectName: 'base_docs',
         showDebugLogging: isDevelopment,
